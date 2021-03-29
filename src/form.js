@@ -69,7 +69,7 @@ const Form = (props) => {
               King of the road, money in the bank. Learn more!
             </div>
             <div className="inputsContainer">
-              <div>
+              <div className="inputDoubles">
                 <input
                   id="firstName"
                   placeholder="First Name"
@@ -83,7 +83,7 @@ const Form = (props) => {
                   required
                 />
               </div>
-              <div>
+              <div className="inputDoubles">
                 <input
                   id="phoneNumber"
                   placeholder="Phone Number"
@@ -97,7 +97,7 @@ const Form = (props) => {
                   required
                 />
               </div>
-              <div>
+              <div className="inputDoubles">
                 <input
                   id="city"
                   placeholder="City"
