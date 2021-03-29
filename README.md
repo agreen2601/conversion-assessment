@@ -1,4 +1,17 @@
-# Conversion Interactive Candidate Test
+To run this locally - 
+
+-- clone repo to your machine
+
+-- navigate to the src directory and enter "npm start"
+
+-- in a seprarate tab navigate to the api directory and enter "json-server -p 3001 -w data.json"
+
+ - If you use a library (css/javascript), please explain why you chose it.
+ **I chose to use ReactJS because I'm best with it, and because I think it fits the needs of the project well**
+ 
+ 
+ 
+ # Conversion Interactive Candidate Test
 
 ## Instructions
 
