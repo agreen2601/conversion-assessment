@@ -80,12 +80,13 @@
 .middle {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 3%;
 }
 
 .upperMiddle {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 10px 40px;
+  padding: 0 0 20px 40px;
 }
 
 .upperLeft {
@@ -161,6 +162,11 @@ form {
 
 .inputsContainer {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.inputDoubles {
+  flex-basis: 33%;
 }
 
 .formHeader {
@@ -172,7 +178,7 @@ form {
 }
 
 input {
-  width: 200px;
+  min-width: 200px;
   margin-top: 20px;
   font-size: small;
   padding: 2px 2px 2px 2px;
@@ -184,6 +190,7 @@ select {
   font-size: small;
   padding: 2px 2px 2px 2px;
   border-radius: 3px;
+  flex-basis: 33%;
 }
 
 .submitDiv {
