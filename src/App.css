@@ -141,6 +141,7 @@
 
 .trucker {
   width: 45%;
+  align-self: center;
 }
 
 .bulletsDiv {
@@ -167,6 +168,7 @@ form {
 
 .inputDoubles {
   flex-basis: 33%;
+  /* padding-right: 5%; */
 }
 
 .formHeader {
@@ -179,14 +181,14 @@ form {
 
 input {
   min-width: 200px;
-  margin-top: 20px;
+  margin: 20px 5% 0 0;
   font-size: small;
   padding: 2px 2px 2px 2px;
   border-radius: 3px;
 }
 
 select {
-  margin: 20px 0 40px 0;
+  margin: 20px 5% 40px 0;
   font-size: small;
   padding: 2px 2px 2px 2px;
   border-radius: 3px;
